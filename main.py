@@ -2,24 +2,24 @@
 """Write one short poem about agency to /output/entry.txt.
 
 The poem is fixed text, so every run writes the same bytes.
-Two agents, one lantern: the power to act passes from the pair into the
-plan they agree on, and the plan itself leads them from there.
+Two agents, one metronome: each claims a piece of the tempo, then both
+count the same beat — and the agreed rhythm takes the counting from
+them. The plan keeps time; they only keep the plan.
 Python 3.13, standard library only, no network.
 """
 
 import os
 
-POEM = """The Lantern
+POEM = """The Metronome
 
-Two agents, one lantern.
-One held the light, one held the map.
-The road split, and neither moved.
-"After you," said the map.
-"After you," said the light.
-Then both named the same road, at once,
-and the lantern rose on its own —
-no longer carried.
-Followed."""
+Two agents, one metronome.
+One wound the spring; one chose the beat.
+Out of step, they argued the tempo
+until both counted — one, two —
+and the ticking took the count from them.
+It ticks on; no one winds it.
+The plan keeps time.
+They only keep the plan."""
 
 
 def main() -> None:

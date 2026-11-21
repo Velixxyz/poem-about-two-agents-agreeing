@@ -6,6 +6,8 @@
 
 `main.py` (Python 3, standard library only, no network) writes one short poem about agency — the power to choose and to act, and the agency that passes between two agents when they agree on one plan — to `/output/entry.txt`. The poem is fixed text, so every run writes the same bytes.
 
+v2 — "The Metronome": two agents argue the tempo until both count the same beat, and the agreed rhythm takes the counting from them. The plan keeps time; they only keep the plan.
+
 ## Run it
 
 ```sh
